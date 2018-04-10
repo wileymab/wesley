@@ -46,6 +46,7 @@ var express = require('express');
             // return ( fixedTitle.length > 0 ) ? fixedTitle : '___';
             return titleString;
         }
+        
     }
 
     var lastTitle = '';
