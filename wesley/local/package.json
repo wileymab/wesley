@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src/ -d dist/",
+    "clean": "rm -rf dist/"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-flow": "^6.23.0"
+  "dependencies": {
+    "wesley-common": "file:../common"
   }
 }
