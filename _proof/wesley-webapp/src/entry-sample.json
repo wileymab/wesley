@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "name": "System Preferences",
+    "bundleId": "com.apple.systempreferences",
+    "path": "/Applications/System Preferences.app",
+    "processId": 23690
+  },
+  "title": "Network",
+  "bounds": { "height": 563, "x": 506, "y": 244, "width": 668 },
+  "id": 52245,
+  "memoryUsage": 6055120,
+  "timestamp": 1523238242936
+}
