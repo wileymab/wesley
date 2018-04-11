@@ -4,18 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:common": "babel ./common/src -d ./common/dist",
-    "build:localService": "babel ./local/src -d ./local/dist",
-    "build:firebase": "babel ./firebase/src -d ./firebase/dist",
-    "build:all": "yarn build:common && yarn build:localService && yarn build:firebase"
+    "flow-spy": "node ./tooling/watch-flow.js",
+    "build:common": "node ./tooling/build-package.js wesley-common",
+    "build:firebase": "node ./tooling/build-package.js wesley-firebase",
+    "build:local": "node ./tooling/build-package.js wesley-local",
+    "build:all": "yarn build:common && yarn build:local && yarn build:firebase"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "filewatcher": "^3.0.1",
+    "flow-bin": "^0.69.0",
+    "glob": "^7.1.2",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
-    "babel-preset-flow": "^6.23.0",
-    "flow-bin": "^0.69.0"
+    "babel-preset-flow": "^6.23.0"
   }
 }

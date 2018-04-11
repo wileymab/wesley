@@ -4,12 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/ -d dist/",
-    "clean": "rm -rf dist/"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "wesley-common": "file:../common"
+    "wesley-common": "file:../wesley-common/dist"
   }
 }

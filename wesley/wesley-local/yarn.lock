@@ -2,5 +2,5 @@
 # yarn lockfile v1
 
 
-"wesley-common@file:../common":
+"wesley-common@file:../wesley-common/dist":
   version "1.0.0"

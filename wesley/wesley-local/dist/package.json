@@ -1,0 +1,14 @@
+{
+  "name": "wesley-local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "wesley-common": "file:../wesley-common/dist"
+  }
+}
