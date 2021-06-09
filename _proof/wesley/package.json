@@ -77,7 +77,7 @@
     "spdx-license-ids": "^3.0.0",
     "strip-bom": "^2.0.0",
     "strip-indent": "^1.0.1",
-    "trim-newlines": "^1.0.0",
+    "trim-newlines": "^3.0.1",
     "validate-npm-package-license": "^3.0.3",
     "wrappy": "^1.0.2"
   },
